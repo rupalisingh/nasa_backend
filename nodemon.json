@@ -1,0 +1,7 @@
+{
+    "watch": ["src", "config/.env"],
+    "ext": "js,ts,json",
+    "ignore": ["src/**/*.spec.ts"],
+    "quiet": true,
+    "exec": "ts-node -r tsconfig-paths/register --transpile-only ./src/handlers/api.ts"
+}
